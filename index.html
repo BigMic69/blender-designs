@@ -46,7 +46,7 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
+        <ul id="mainNav" class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden">
             <a class="page-scroll" href="#page-top"></a>
@@ -72,7 +72,10 @@
     <div class="box-header">
       <h1>3D Design</h1>
       <p>This webpage will be an attempt to demonstrate my 3D Design capabilities using a free program called Blender.</p>
-      <a class="btn btn-default page-scroll" href="#about">Enter, seeker of knowledge!</a>
+      <div class="img-container-intro">
+        <img class="img-responsive" src="./img/mug-7.png" alt="">
+      </div><!-- /img-container-intro END -->
+      <a id="introBtn" class="btn btn-default page-scroll" href="#about">Press to continue</a>
     </div>
   </section>
   <hr>
@@ -132,6 +135,59 @@
       <div class="box-header">
         <h1>Contact Section</h1>
       </div>
+      <div class="container-contact">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">LOCATE ME</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <ul class="locate">
+                  <li>1234 Bellemeade Ave</li>
+                  <li>Evansville, IN 47713</li>
+                  <li>bigmic69@gmail.com</li>
+                  <li><a class="btn" href="https://0006iux.wcomhost.com/contact.html" target="_blank">CONTACT ME</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">GOOGLE MAP</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12581.355664146016!2d-87.56429435!3d37.96921925!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1510097012001" width="" height="" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">SOCIAL ARENA</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul class="social-icons">
+                  <li><a href=""><img src="./img/icons/Facebook-Icon.png" alt="" class="img-responsive"></a></li>
+                  <li><a href=""><img src="./img/icons/Google-Plus-Icon.png" alt="" class="img-responsive"></a></li>
+                  <li><a href=""><img src="./img/icons/Linkedin-Icon.png" alt="" class="img-responsive"></a></li>
+                  <li><a href=""><img src="./img/icons/Twitter-Icon.png" alt="" class="img-responsive"></a></li>
+                  <li><a href=""><img src="./img/icons/Youtube-Icon.png" alt="" class="img-responsive"></a></li>
+                  <li><a href=""><img src="./img/icons/Myspace-Icon.png" alt="" class="img-responsive"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
     <hr>
 

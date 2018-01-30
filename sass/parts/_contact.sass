@@ -1,0 +1,64 @@
+.panel-heading
+  padding: 0
+
+.panel-title
+  margin: 0
+  color: #f1f1f1
+  background: #323232
+  a
+    display: flex
+    justify-content: center
+    padding: 5px
+    font-size: calc(1.4em + 1vw)
+    text-decoration: none
+
+.panel-collapse
+  width: 100%
+
+.panel-body
+  width: 100%
+  margin: 0 auto
+  padding: 5px
+
+ul.locate
+  margin: 10px auto
+  li
+    font-size: calc(1.2em + 1vw)
+    line-height: 1.25em
+    @media (min-width: 700px)
+      font-size: calc(.8em + 1vw)
+    @media (min-width: 1024px)
+      // font-size: 2.25em
+  .btn
+    margin: 20px auto 10px
+    font-size: 1em
+    border: thin solid #444
+    +trans-0
+    &:hover
+      color: #f1f1f1
+      background: #383838
+
+iframe
+  width: 100%
+  height: 40vh
+  @media (min-width: 700px)
+    height: 55vh
+
+.social-icons
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-rows: auto
+  grid-gap: 10px
+  margin: 20px auto
+  @media (min-width: 700px)
+    grid-template-columns: repeat(6, 1fr)
+  li
+    width: 80%
+    margin: 5px auto 0
+    a
+      width: 80%
+    img
+      width: 100%
+      +trans-0
+      &:hover
+        transform: scale(1.2)
