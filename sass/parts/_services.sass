@@ -1,0 +1,27 @@
+#listServices
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-template-rows: auto
+  grid-gap: 20px
+  li
+    a
+      display: flex
+      justify-content: center
+      padding: 10px 0
+      color: #343434
+      background: #f3f3f3
+      text-decoration: none
+      border: thin solid #f3f3f3
+      border-radius: 5px
+      +trans-0
+      &:hover
+        color: #f3f3f3
+        background: #343434
+
+.box-video-services
+  width: 100%
+  margin: 10vh auto
+  video
+    width: 90%
+    margin: 0 auto
+    box-shadow: 2px 2px 3px #f1f1f1

@@ -1,0 +1,20 @@
+.box-header
+  width: 100%
+
+.box-content-about
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: auto
+  grid-gap: 20px
+  @media (max-width: 700px)
+    grid-template-columns: 1fr
+  .img-container
+    border: thin solid #f1f1f1
+
+.box-video-about
+  width: 100%
+  margin: 0 auto
+  video
+    width: 90%
+    margin: 0 auto    
+    box-shadow: 2px 2px 3px #f1f1f1
