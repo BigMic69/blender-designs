@@ -157,7 +157,7 @@ p {
 /* line 5, ../sass/parts/_base.sass */
 body {
   background: #444;
-  background-image: url(../img/riverfront-2.png);
+  background-image: url(../img/computer-24.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -347,11 +347,21 @@ footer h6 {
 }
 
 /* line 14, ../sass/parts/_about.sass */
+.btn-blender {
+  padding: 10px;
+  color: #444;
+  background: #f1f1f1;
+  font-weight: 600;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+
+/* line 22, ../sass/parts/_about.sass */
 .box-video-about {
   width: 100%;
-  margin: 0 auto;
+  margin: 40px auto 20px;
 }
-/* line 17, ../sass/parts/_about.sass */
+/* line 25, ../sass/parts/_about.sass */
 .box-video-about video {
   width: 90%;
   margin: 0 auto;
